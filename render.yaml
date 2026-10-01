@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: padme-collecte
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: DB_PATH
+        value: /data/reponses.db

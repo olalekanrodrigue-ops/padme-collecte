@@ -1,0 +1,12 @@
+.git
+.gitignore
+__pycache__/
+*.db
+*.pyc
+.venv/
+venv/
+.env
+test_app.py
+exemple_export_fictif.xlsx
+render.yaml
+README.md
